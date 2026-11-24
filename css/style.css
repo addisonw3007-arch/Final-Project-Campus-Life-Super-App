@@ -1,0 +1,12 @@
+/* Shared palette and responsive dashboard layout */
+:root { --accent:#63334b; --paper:#f8f5f2; --ink:#29232a; }
+body { background:var(--paper); color:var(--ink); font-family:system-ui,sans-serif; }
+header { background:white; border-bottom:1px solid #ddd3d7; }
+.navbar-brand {font-weight:800; color:var(--ink);}.navbar-brand span {color:var(--accent);}
+.nav-link.active {font-weight:700; text-decoration:underline;}
+.hero {background:#eadce4; padding:clamp(1.5rem,5vw,3.5rem); border-radius:1.25rem;}
+h1 {font-weight:750; letter-spacing:-.035em;}.eyebrow {font-size:.75rem; letter-spacing:.12em; font-weight:700;}
+.panel {background:white; border:1px solid #e1d8dc; border-radius:1rem; padding:1.5rem;}
+.feature-content > .col {margin-bottom:1rem;}.btn-primary {--bs-btn-bg:#63334b;--bs-btn-border-color:#63334b;--bs-btn-hover-bg:#482438;--bs-btn-hover-border-color:#482438;}.btn-outline-primary {--bs-btn-color:#63334b;--bs-btn-border-color:#63334b;--bs-btn-hover-bg:#63334b;--bs-btn-hover-border-color:#63334b;}
+a {color:#63334b;} :focus-visible {outline:3px solid #63334b;outline-offset:3px;}
+@media(max-width:576px){.panel{padding:1rem;} .hero{border-radius:.75rem;}}
